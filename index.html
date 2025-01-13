@@ -7,13 +7,14 @@
     <meta name="author" content="Victória Lara do Nascimento">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Meu Perfil</title>
 </head>
 
 <body>
     
     <header>       
-         <div id="header_content">
+         <div id="header_content" class="flex">
 
             <div id="titulo">
 
@@ -25,7 +26,7 @@
 
                 <nav>
                    
-                    <ul id="menu">
+                    <ul id="listamenu">
                         <li>
                             <a href="index.html"> Home </a>
                         </li>
@@ -43,15 +44,17 @@
   
     <main>
 
-        <section id="about">
+        <section id="about" class="flex_start">
 
             <h2>Sobre a Victória Lara</h2>
 
-            <div id="conteudo">
+            <div id="conteudo" class="flex">
 
                 <img
                 src="./assets/img/fotoperfil.png"
                 alt="Foto da criadora desse conteudo"
+
+                class="img_profile"
                 />
 
    
@@ -72,11 +75,11 @@
         </section>
         
         
-        <section id="video">
+        <section id="video" class="flex_start">
 
             <h2>Meu vídeo favorito:</h2>
 			
-				<div class="youtube">
+				<div id="youtube" class="flex">
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/Bl1FOKpFY2Q?si=dS1w3Gnu1dsqlQnd" 
                     title="YouTube video player" 
                     frameborder="0" 
@@ -91,7 +94,7 @@
     </main>
 
    
-    <footer>
+    <footer class="flex">
 
         <section id="redes_sociais">
 
